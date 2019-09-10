@@ -1,9 +1,4 @@
 <?php
-use Fuel\Core\Controller;
-use Fuel\Core\Presenter;
-use Fuel\Core\Response;
-use Fuel\Core\View;
-use function Fuel\Core\Database_Result\count;
 /**
  * Fuel is a fast, lightweight, community driven PHP 5.4+ framework.
  *
