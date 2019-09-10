@@ -1,0 +1,488 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.loginTableMain {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+}
+
+.main {
+	width: 100%;
+	height: 80px;
+	text-align: left;
+	padding: 0px;
+	margin: 0;
+	background-color: #2e75b6;
+}
+
+.title {
+	float: left;
+	padding: 10px;
+	color: white;
+	font-family: "NSimSun";
+	font-size: 50px;
+	font-style: oblique;
+}
+
+.loginInfo {
+	color: white;
+	padding-top: 20px;
+	padding-right: 20px;
+	float: right;
+}
+
+.loginInfoTd {
+	padding-left: 10px;
+}
+
+.loginInfoButton {
+	width: 120px;
+	height: 40px;
+	border: solid;
+	border-radius: 5px;
+	webkit-border-radius: 5px;
+	color: #2e75b6;
+	background: rgb(242, 242, 242);
+	border: 1px solid gray;
+}
+
+.tableTabImage {
+	width: 100%;
+	position: relative;
+	height: 450px;
+	background:
+		url("http://localhost/fuelphp/assets/img/top/backdisplay.jpg");
+}
+
+.tableTabMenu {
+	margin: auto;
+	width: 95%;
+	padding-top: 385px;
+}
+
+#tab01 {
+	color: yellow;
+}
+
+.testStyle {
+	border: 0.5px solid white;
+	border-image: none;
+	width: 280px;
+	height: 46px;
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	text-decoration: none;
+	float: left;
+	background-color: rgb(46, 117, 182);
+	font-size: 20px;
+}
+
+/* ▼ 各ボックスの配色設定 */
+div#tab1 {
+	width: 95%;
+	height: 95%;
+	margin: auto;
+	display: block;
+	border: 1px solid #2e75b6;
+	background-color: #fafafa;
+}
+
+div#tab2 {
+	width: 95%;
+	height: 95%;
+	margin: auto;
+	border: 1px solid #2e75b6;
+	background-color: #fafafa;
+}
+
+div#tab3 {
+	width: 95%;
+	height: 95%;
+	margin: auto;
+	border: 1px solid #2e75b6;
+	background-color: #fafafa;
+}
+
+.searchStyle {
+	margin-top: 50px;
+	width: 95%;
+	height: 95%;
+	border-width: 0.1px;
+	border-color: rgb(178, 178, 178);
+	border-collapse: collapse;
+	border-style: solid;
+}
+
+.searchTh {
+	width: 20%;
+	height: 70px;
+	color: white;
+	font-family: "NSimSun";
+	font-size: 26px;
+	border-width: 0.1px;
+	border-color: rgb(178, 178, 178);
+	border-collapse: collapse;
+	border-style: solid;
+	background: #2e75b6;
+}
+
+.searchTd {
+	width: 80%;
+	border-width: 0.1px;
+	border-color: rgb(178, 178, 178);
+	border-collapse: collapse;
+	border-style: solid;
+	font-size: 16px;
+}
+
+.searchInputTd {
+	padding-left: 20px;
+}
+
+.searchInputText {
+	width: 150px;
+	height: 40px;
+	border-radius: 5px;
+	webkit-border-radius: 5px;
+	padding-left: 5px;
+	border-width: 0.5px;
+	border-color: #2e75b6;
+	border-collapse: collapse;
+	border-style: solid;
+}
+
+.searchSpan {
+	padding-left: 20px;
+	float: left;
+}
+
+.searchPullDown {
+	background: rgb(242, 242, 242);
+	padding: 1px;
+	width: 250px;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 5px;
+	webkit-border-radius: 5px;
+	padding-left: 10px;
+	border-width: 0.5px;
+	border-color: #2e75b6;
+	border-collapse: collapse;
+	border-style: solid;
+}
+
+.searchButtonStyle {
+	padding: 30px 0px;
+}
+
+.searchButton {
+	width: 375px;
+	height: 60px;
+	font-size: 24px;
+	font-family: "NSimSun";
+	font-style: oblique;
+	color: black;
+	background: rgb(242, 242, 242);
+	border: solid;
+	border-radius: 10px;
+	webkit-border-radius: 10px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: #2e75b6;
+}
+
+.searchList {
+	width: 100%;
+	height: 100%;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.searchListMain {
+	width: 95%;
+	height: 80px;
+	text-align: left;
+	padding: 0px;
+	margin: 0;
+	background-color: #2e75b6;
+}
+
+.searchTitle {
+	float: left;
+	font-size: 35px;
+	padding: 15px;
+	width: 43%;
+	color: white;
+	font-family: "NSimSun";
+	font-style: oblique;
+}
+
+.searchNumber {
+	float: left;
+	font-size: 35px;
+	padding-top: 15px;
+	color: white;
+	font-family: "NSimSun";
+	font-style: oblique;
+}
+
+.searchSortMain {
+	height: 80px;
+	color: white;
+	float: right;
+	background-color: rgb(91, 155, 213);
+}
+
+.searchSortTitle {
+	padding-top: 15px;
+	padding-left: 15px;
+	float: left;
+}
+
+.searchSortStyle {
+	padding: 19px 15px;
+	float: left;
+}
+
+.searchSort {
+	width: 200px;
+	height: 40px;
+	font-size: 16px;
+}
+
+.searchResultStyle {
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.searchResultDiv {
+	width: 95%;
+	height: 100%;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.pdfBotton {
+	width: 275px;
+	height: 45px;
+	border: solid;
+	border-radius: 5px;
+	webkit-border-radius: 5px;
+	color: #2e75b6;
+	background: rgb(242, 242, 242);
+	border: 1px solid gray;
+}
+
+.pageList {
+	width: 100%;
+	height: 100%;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+.pageBotton {
+	margin-left: 15px;
+	font-size: 24px;
+	width: 60px;
+	height: 60px;
+	background-color: #2e75b6;
+	border-color: #2e75b6;
+	border-width: 0.1px;
+	color: #ffffff;
+	font-family: "NSimSun";
+}
+
+.loginTable {
+	width: 100%;
+	padding: 10px;
+	border-collapse: collapse;
+	position: relative;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #2e75b6;
+}
+
+.loginInputMain {
+	padding: 90px 50px 0px;
+	float: left;
+}
+
+.loginInputTable {
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 0.1px;
+	border-color: #a9a9a9;
+}
+
+.loginInputUserTr {
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 0.1px;
+	border-color: #a9a9a9;
+	height: 50px;
+}
+
+.loginInputDtoTr {
+	height: 50px;
+}
+
+.loginInputTh {
+	padding-left: 15px;
+}
+
+.loginInputTd {
+	width: 325px;
+	padding-left: 10px;
+	height: 50px;
+	padding-right: 1px;
+}
+
+input[type="text"]::-ms-clear {
+	display: none;
+}
+
+.onButtonStyle {
+	padding-top: 45px;
+}
+
+.loginMessage {
+	font-style: oblique;
+}
+
+.loginButton {
+	font-size: 24px;
+	width: 375px;
+	height: 60px;
+	background-color: #2e75b6;
+	border-color: #2e75b6;
+	border-width: 0.1px;
+	color: #ffffff;
+}
+
+.checkBoxStyle {
+	padding-top: 20px;
+}
+
+.checkSaveButton {
+	width: 17px;
+	height: 17px;
+	font-family: "NSimSun";
+	font-size: 14px;
+}
+
+.checkSaveMessage {
+	padding-left: 10px;
+	color: #808080;
+}
+
+.forgetLink {
+	text-decoration: none;
+}
+
+.linkMessage {
+	padding: 0px 5px;
+}
+
+.freeSingUpLink {
+	text-decoration: none;
+	padding: 0px 2px;
+}
+
+.loginImageMain {
+	width: 1030px;
+	height: 430px;
+	float: left;
+}
+
+.loginImageStyle {
+	background: #2e75b6;
+	width: 100%;
+	height: 100%;
+}
+
+.loginDetailsStyle {
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.detailsMessageStyle {
+	float: left;
+}
+
+.detailsStyle {
+	padding: 20px 0px;
+}
+
+.detailsButton {
+	background: rgb(31, 81, 121);
+	border: 0.1px solid rgb(255, 255, 255);
+	border-image: none;
+	width: 250px;
+	height: 60px;
+	font-size: 26px;
+	color: white;
+}
+
+.detailsMessage {
+	color: white;
+	font-family: "NSimSun";
+	font-size: 30px;
+	font-style: oblique;
+}
+
+.detailsImage {
+	padding-left: 40px;
+	float: left;
+}
+
+.pcStyleMain {
+	padding: 18px 30px;
+}
+
+.pcStyle1 {
+	float: left;
+}
+
+.pcStyle2 {
+	padding-left: 30px;
+	float: left;
+}
+
+.boxStyle {
+	border-radius: 20px;
+	webkit-border-radius: 20px;
+	background: rgb(255, 255, 255);
+	width: 303px;
+	height: 150px;
+	font-size: 16px;
+}
+
+.boxMessage1 {
+	padding-top: 25px;
+	padding-left: 40px;
+}
+
+.boxMessage2 {
+	padding-left: 40px;
+}
+
+.boxMessage3 {
+	padding-top: 15px;
+	padding-left: 40px;
+}
+
+.latestLinkStyle {
+	float: left;
+	padding-top: 1px;
+}
+
+.latestLinkImage {
+	float: left;
+	padding-left: 5px;
+}

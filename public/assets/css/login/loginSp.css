@@ -1,0 +1,200 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.main {
+	width: 100%;
+	height: 70px;
+	text-align: center;
+	padding-top: 100px;
+	background-color: white;
+	padding-bottom: 180px;
+}
+
+.title {
+	padding: 10px;
+	color: black;
+	font-family: "NSimSun";
+	font-size: 170px;
+	font-style: oblique;
+}
+
+.loginTable {
+	width: 100%;
+	padding: 10px;
+	border-collapse: collapse;
+	position: relative;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #2e75b6;
+	margin: auto;
+}
+
+.loginInputStyle {
+	width: 85%;
+	margin: auto;
+}
+
+.inputTableData {
+	margin: auto;
+	width: 100%;
+	padding-top: 50px;
+}
+
+.loginInputTable {
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 0.1px;
+	border-color: #a9a9a9;
+}
+
+.loginInputUserTr {
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 0.1px;
+	border-color: #a9a9a9;
+	height: 50px;
+}
+
+.loginInputTh {
+	padding-left: 15px;
+	padding-right: 5px;
+}
+
+.loginInputTd {
+	width: 100%;
+	padding-left: 10px;
+	height: 130px;
+	padding-right: 1px;
+}
+
+.userId {
+	width: 100%;
+	border: currentColor;
+	border-image: none;
+	font-size: 70px;
+	height: 98%;
+	outline: 0;
+}
+
+input[type="text"]::-ms-clear {
+	display: none;
+}
+
+.password {
+	width: 100%;
+	border: currentColor;
+	border-image: none;
+	font-size: 70px;
+	height: 98%;
+	outline: 0;
+}
+
+input[type="password"]::-ms-clear {
+	display: none;
+}
+
+.loginButton {
+	font-size: 70px;
+	width: 100%;
+	height: 130px;
+	background-color: #2e75b6;
+	border-color: #2e75b6;
+	border-width: 0.1px;
+	color: #ffffff;
+}
+
+.buttonTd {
+	padding-top: 100px;
+}
+
+.buttonLoginTable {
+	width: 100%;
+}
+
+.images {
+	padding: 15px;
+	width: 60px;
+}
+
+.checkSaveMessage {
+	padding-left: 2px;
+	font-size: 40px;
+	color: #808080;
+	font-size: 40px;
+}
+
+.userCheck {
+	padding-top: 40px;
+}
+
+#checkSaveButton {
+	width: 40px;
+	height: 40px;
+}
+
+.userRegistration {
+	font-size: 40px;
+}
+
+.loginImageStyle1 {
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.loginImageStyle2 {
+	width: 100%;
+	height: 100%;
+	padding-top: 20px;
+}
+
+.logInSalesData {
+	width: 100%;
+	background-color: rgb(46, 117, 182);
+}
+
+.latestInfoButton {
+	background: rgb(31, 81, 121);
+	border: 0.1px solid rgb(255, 255, 255);
+	border-image: none;
+	width: 100%;
+	height: 120px;
+	font-size: 50px;
+	color: white;
+}
+
+.latestMain {
+	margin-top:70px;
+	width: 100%;
+	background: #2e75b6;
+}
+
+.latestTableColor {
+	width: 85%;
+	margin: auto;
+}
+
+.latestInfoDiv {
+	color: white;
+	font-family: 'NSimSun';
+	font-size: 75px;
+	font-style: oblique;
+	margin-top: 70px;
+}
+
+.latestInfoStyle {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	width: 100%;
+}
+
+.latestimageStyle {
+	padding-bottom: 70px;
+}
+
+.latestImage {
+	width: 100%;
+}

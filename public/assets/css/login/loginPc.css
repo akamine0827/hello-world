@@ -1,0 +1,231 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.main {
+	width: 100%;
+	height: 70px;
+	text-align: left;
+	padding: 0px;
+	background-color: #2e75b6;
+}
+
+.title {
+	padding: 10px;
+	color: white;
+	font-family: "NSimSun";
+	font-size: 50px;
+	font-style: oblique;
+}
+
+.loginTable {
+	width: 85%;
+	padding: 10px;
+	border-collapse: collapse;
+	position: relative;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #2e75b6;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.loginInputStyle {
+	float: left;
+	padding: 50px;
+	width: 25%;
+}
+
+.inputTableData {
+	width: 100%;
+}
+
+.loginInputTable {
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 0.1px;
+	border-color: #a9a9a9;
+}
+
+.loginInputUserTr {
+	border-collapse: collapse;
+	border-style: solid;
+	border-width: 0.1px;
+	border-color: #a9a9a9;
+	height: 50px;
+}
+
+.loginInputTh {
+	padding-left: 15px;
+	padding-right: 5px;
+}
+
+.loginInputTd {
+	width: 100%;
+	padding-left: 10px;
+	height: 60px;
+	padding-right: 1px;
+}
+
+.userId {
+	width: 100%;
+	border: currentColor;
+	border-image: none;
+	font-size: 16px;
+	height: 45px;
+	outline: 0;
+}
+
+input[type="text"]::-ms-clear {
+	display: none;
+}
+
+.password {
+	width: 100%;
+	border: currentColor;
+	border-image: none;
+	font-size: 16px;
+	height: 45px;
+	outline: 0;
+}
+
+input[type="password"]::-ms-clear {
+	display: none;
+}
+.buttonTd {
+	padding-top: 50px;
+}
+
+.buttonLoginTable {
+	width: 100%;
+}
+
+.errMessage {
+	color: red;
+}
+
+.loginButton {
+	font-size: 24px;
+	width: 100%;
+	height: 60px;
+	background-color: #2e75b6;
+	border-color: #2e75b6;
+	border-width: 0.1px;
+	color: #ffffff;
+}
+
+.userCheck {
+	padding-top: 10px;
+}
+
+.checkSaveMessage {
+	padding-left: 2px;
+	color: #808080;
+}
+
+.latestMain {
+	float: left;
+	height: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.latestTableColor {
+	background-color: #2e75b6;
+}
+
+.latestInfoTd {
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.latestInfoDiv {
+	color: white;
+	font-family: 'NSimSun';
+	font-size: 30px;
+	font-style: oblique;
+	float: left;
+}
+
+.latestInfoButton {
+	background: rgb(31, 81, 121);
+	border: 0.1px solid rgb(255, 255, 255);
+	border-image: none;
+	width: 250px;
+	height: 60px;
+	font-size: 26px;
+	font-family: 'NSimSun';
+	color: white;
+}
+
+.latestimageStyle {
+	float: left;
+	padding-left: 30px;
+}
+
+.latestInfoPc {
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+
+.boxTable1 {
+	width: 320px;
+	height: 150px;
+	font-size: 16px;
+	border-radius: 20px;
+	webkit-border-radius: 20px;
+	background: rgb(255, 255, 255);
+	float: left;
+}
+
+.boxTable2 {
+	width: 320px;
+	height: 150px;
+	font-size: 16px;
+	border-radius: 20px;
+	webkit-border-radius: 20px;
+	background: rgb(255, 255, 255);
+	float: left;
+	margin-left: 30px;
+}
+
+.boxTable3 {
+	width: 320px;
+	height: 150px;
+	font-size: 16px;
+	border-radius: 20px;
+	webkit-border-radius: 20px;
+	background: rgb(255, 255, 255);
+	float: left;
+	margin-left: 30px;
+	margin-right:30px;
+}
+
+.boxStyle {
+	padding: 20px;
+}
+
+.boxMessage {
+	padding-top: 30px;
+}
+
+.latestInfoSale {
+	padding-right: 30px;
+}
+
+.loginDetailsStyle {
+	padding-top: 30px;
+	padding-left: 30px;
+	padding-right: 10px;
+}
+
+.latestInfoStyle {
+	padding-top: 30px;
+}
+
+.latestLinkStyle {
+	float: left;
+	padding-top: 1px;
+}
